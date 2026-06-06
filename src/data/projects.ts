@@ -61,7 +61,16 @@ export const projects: Project[] = [
     ],
     tools: ["Windows", "File Explorer"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "Bài làm Bài 1 (Google Tài liệu)",
+      submittedAt: "08/03/2026 · 13:10",
+      status: "Đã nộp · Đang chờ chấm",
+      fileUrl: "",
+    },
+    requirementImg: "/img/bai1-yeucau.jpg",
+    proofImgs: ["/img/bai1-mc1.jpg"],
+    viewUrl:
+      "https://docs.google.com/document/d/11KCYsoH5dgWvRkXPxOz0mplAOWkFTl663FL855c7xp8/edit?usp=sharing",
     aiNote:
       "Bài tập thực hành thao tác trực tiếp trên hệ điều hành Windows, không sử dụng công cụ AI. Toàn bộ ảnh minh hoạ trong bài nộp do chính tôi chụp màn hình trong quá trình thực hiện.",
     lesson:
@@ -87,7 +96,16 @@ export const projects: Project[] = [
     ],
     tools: ["Google Scholar", "Microsoft Academic", "Định dạng Harvard"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "bt22.pdf",
+      submittedAt: "20/03/2026 · 03:20",
+      status: "Đã nộp · Đang chờ chấm",
+      fileUrl: "",
+    },
+    requirementImg: "/img/bai2-yeucau.jpg",
+    proofImgs: ["/img/bai2-mc1.jpg"],
+    viewUrl:
+      "https://cdnlms.vnu.edu.vn/dhqg.file.api/uploads/lms/document/22100027/20260319/tmpsfuunb_bt22.pdf",
     aiNote:
       "Toàn bộ tài liệu tham khảo được trích dẫn theo định dạng Harvard. Việc đánh giá và xếp hạng độ tin cậy của từng nguồn do tôi tự thực hiện dựa trên các tiêu chí học thuật.",
     lesson:
@@ -113,7 +131,16 @@ export const projects: Project[] = [
     ],
     tools: ["ChatGPT", "Prompt Engineering", "Few-shot / Chain-of-thought"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "bt22-2.pdf",
+      submittedAt: "01/04/2026 · 16:44",
+      status: "Đã nộp · Đang chờ chấm",
+      fileUrl: "",
+    },
+    requirementImg: "/img/bai3-yeucau.jpg",
+    proofImgs: ["/img/bai3-mc1.jpg"],
+    viewUrl:
+      "https://cdnlms.vnu.edu.vn/dhqg.file.api/uploads/lms/document/22100027/20260401/tmpjv1zov_bt22-2.pdf",
     aiNote:
       "Bài tập có sử dụng công cụ AI (ChatGPT) để thử nghiệm và so sánh các phiên bản prompt. Toàn bộ prompt, kết quả AI và phần phân tích đều được trình bày minh bạch trong báo cáo.",
     lesson:
@@ -138,7 +165,16 @@ export const projects: Project[] = [
     ],
     tools: ["Trello", "Google Docs", "Google Drive", "Microsoft Teams"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "bt-43.pdf",
+      submittedAt: "19/04/2026 · 21:02",
+      status: "Đã nộp · Đang chờ chấm",
+      fileUrl: "",
+    },
+    requirementImg: "/img/bai4-yeucau.jpg",
+    proofImgs: ["/img/bai4-mc1.jpg"],
+    viewUrl:
+      "https://cdnlms.vnu.edu.vn/dhqg.file.api/uploads/lms/document/22100027/20260419/tmpgjqaq8_bt-43.pdf",
     aiNote:
       "Báo cáo phản ánh trải nghiệm hợp tác thực tế của cá nhân; minh chứng (ảnh chụp màn hình) thể hiện rõ tài khoản và phần đóng góp của tôi trong dự án nhóm.",
     lesson:
@@ -164,7 +200,16 @@ export const projects: Project[] = [
     ],
     tools: ["ChatGPT", "DALL·E", "Canva AI", "Adobe Firefly"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "bt-52.pdf",
+      submittedAt: "03/05/2026 · 21:54",
+      status: "Đã nộp · Đang chờ chấm",
+      fileUrl: "",
+    },
+    requirementImg: "/img/bai5-yeucau.jpg",
+    proofImgs: ["/img/bai5-mc1.jpg"],
+    viewUrl:
+      "https://cdnlms.vnu.edu.vn/dhqg.file.api/uploads/lms/document/22100027/20260503/tmpj1uwjq_bt-52.pdf",
     aiNote:
       "Bài tập sử dụng nhiều công cụ AI tạo sinh (văn bản, hình ảnh, thiết kế). Toàn bộ prompt, đầu ra AI và phần chỉnh sửa/đóng góp cá nhân đều được ghi lại minh bạch; bài có phần phân tích riêng về các vấn đề đạo đức khi sử dụng AI.",
     lesson:
@@ -190,7 +235,16 @@ export const projects: Project[] = [
     ],
     tools: ["ChatGPT", "Canva (infographic)", "Trích dẫn học thuật"],
     lmsUrl: "",
-    submission: null,
+    submission: {
+      fileName: "bt-64.pdf",
+      submittedAt: "17/05/2026 · 22:47",
+      status: "Đã nộp · Đang chờ chấm",
+      fileUrl: "",
+    },
+    requirementImg: "/img/bai6-yeucau.jpg",
+    proofImgs: ["/img/bai6-mc1.jpg"],
+    viewUrl:
+      "https://cdnlms.vnu.edu.vn/dhqg.file.api/uploads/lms/document/22100027/20260517/tmpdd9fns_bt-64.pdf",
     aiNote:
       "Bài tập trực tiếp về sử dụng AI có trách nhiệm: mọi prompt và đầu ra AI đều được ghi lại và trích dẫn minh bạch. Bài có bộ nguyên tắc cá nhân và phân tích ranh giới giữa hỗ trợ hợp lý và gian lận học thuật.",
     lesson:
