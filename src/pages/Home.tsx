@@ -24,14 +24,14 @@ const stats = [
 ];
 
 const goals = [
-  { body: "Nắm vững năng lực số nền tảng phục vụ học tập & nghiên cứu y khoa: quản lý dữ liệu, tra cứu thông tin đáng tin cậy, khai thác AI hiệu quả và có đạo đức." },
+  { body: "Nắm vững AI và công nghệ số nền tảng phục vụ học tập & nghiên cứu y khoa: quản lý dữ liệu, tra cứu thông tin đáng tin cậy, khai thác AI hiệu quả và có đạo đức." },
   { body: "Trở thành người làm y khoa làm chủ công nghệ: ứng dụng AI hỗ trợ học tập/chẩn đoán, bảo đảm an toàn dữ liệu bệnh nhân và liêm chính học thuật." },
 ];
 
 const portfolioGoals = [
   "Chứng minh các kỹ năng số đã học qua 6 dự án thực hành cụ thể.",
   "Lưu trữ sản phẩm cá nhân có hệ thống, dễ truy cập & chia sẻ.",
-  "Ghi lại quá trình tự học và sự tiến bộ về năng lực số.",
+  "Ghi lại quá trình tự học và sự tiến bộ về AI và công nghệ số.",
   "Phản ánh tư duy học thuật: minh bạch nguồn, dùng AI có trách nhiệm.",
 ];
 
@@ -51,7 +51,7 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span className="chip"><Terminal className="h-3.5 w-3.5" /> portfolio · môn năng lực số</span>
+            <span className="chip"><Terminal className="h-3.5 w-3.5" /> portfolio · môn AI và công nghệ số</span>
           </motion.div>
 
           <motion.h1
@@ -71,7 +71,7 @@ export default function Home() {
             className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft"
           >
             Sinh viên <b className="text-brand-300">{SITE.major}</b> với niềm đam mê công nghệ.
-            Đây là hồ sơ năng lực số của mình — nơi mình làm chủ dữ liệu, thông tin và AI một
+            Đây là hồ sơ AI và công nghệ số của mình — nơi mình làm chủ dữ liệu, thông tin và AI một
             cách hiệu quả, có trách nhiệm.
           </motion.p>
 
@@ -151,7 +151,7 @@ export default function Home() {
             {/* Bio + goals */}
             <Reveal delay={0.1}>
               <p className="leading-relaxed text-ink-soft">
-                Mình là {SITE.fullName}, sinh viên {SITE.major}. Với mình, môn Năng lực số là cơ
+                Mình là {SITE.fullName}, sinh viên {SITE.major}. Với mình, môn AI và Công nghệ số là cơ
                 hội để rèn một tư duy làm việc trong môi trường số: bài bản, hiệu quả và có trách
                 nhiệm.
               </p>
@@ -187,7 +187,7 @@ export default function Home() {
                 </h2>
                 <p className="mt-4 text-ink-soft">
                   Đây là nơi mình tổng hợp, hệ thống hóa kết quả học tập và chứng minh sự trưởng
-                  thành về năng lực số trong suốt môn học.
+                  thành về AI và công nghệ số trong suốt môn học.
                 </p>
               </div>
               <ul className="space-y-2.5">

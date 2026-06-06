@@ -40,7 +40,7 @@ export default function Summary() {
                 <div className="space-y-3 border-l-2 border-brand-500/50 pl-5 text-sm leading-relaxed text-ink-soft">
                   <p>
                     Quá trình làm Portfolio là một hành trình thật sự thú vị. Ban đầu mình nghĩ
-                    "năng lực số" chỉ là biết dùng máy tính, nhưng càng đi qua từng bài, mình càng
+                    "AI và công nghệ số" chỉ là biết dùng máy tính, nhưng càng đi qua từng bài, mình càng
                     nhận ra đây là cả một <b className="text-ink">tư duy làm việc trong môi trường số</b>.
                   </p>
                   <p>
@@ -119,7 +119,7 @@ export default function Summary() {
                 </div>
                 <p className="mt-4 rounded-lg border border-neon/30 bg-white/[0.03] p-4 text-sm leading-relaxed text-ink-soft">
                   <b className="text-neon">// định hướng tiếp theo:</b> mình sẽ tiếp tục rèn kỹ năng
-                  đánh giá nguồn và sáng tạo nội dung số, đồng thời ứng dụng năng lực số vào việc học
+                  đánh giá nguồn và sáng tạo nội dung số, đồng thời ứng dụng AI và công nghệ số vào việc học
                   ngành Y Khoa — tra cứu tài liệu, phác đồ điều trị và hỗ trợ nghiên cứu một cách hiệu
                   quả, có trách nhiệm.
                 </p>

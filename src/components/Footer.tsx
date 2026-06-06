@@ -19,11 +19,11 @@ export default function Footer() {
                 <Code2 className="h-5 w-5" strokeWidth={2.5} />
               </span>
               <span className="font-display text-base font-bold text-ink">
-                Portfolio<span className="gradient-text">_NLS</span>
+                Portfolio<span className="gradient-text">_ACS</span>
               </span>
             </div>
             <p className="mt-4 font-mono text-xs leading-relaxed text-ink-muted">
-              // hành trình rèn luyện năng lực số của sinh viên ngành Y Khoa — 6 dự án thực hành,
+              // hành trình rèn luyện AI và công nghệ số của sinh viên ngành Y Khoa — 6 dự án thực hành,
               ứng dụng công nghệ &amp; AI một cách hiệu quả và có trách nhiệm.
             </p>
           </div>

@@ -33,7 +33,7 @@ export default function Navbar() {
               <Code2 className="h-5 w-5" strokeWidth={2.5} />
             </span>
             <span className="font-display text-base font-bold text-ink">
-              Portfolio<span className="gradient-text">_NLS</span>
+              Portfolio<span className="gradient-text">_ACS</span>
             </span>
           </Link>
 
