@@ -31,7 +31,7 @@ export const SITE = {
   school: "ĐH Y Dược - Đại học Quốc gia Hà Nội",
   year: "2026",
   email: "[email@cua.ban]",
-  hobbies: "Tắm biển, chụp ảnh, hát",
+  hobbies: "Du lịch, chụp ảnh, cắm trại",
 };
 
 export const projects: Project[] = [
