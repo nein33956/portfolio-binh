@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-night text-ink font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-brand-500/40 text-white;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-night;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-brand-600/60;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-brand-500;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-400 to-neon bg-clip-text text-transparent;
+  }
+  .glass {
+    @apply border border-white/10 bg-night/70 backdrop-blur-xl;
+  }
+  /* nhãn mono kiểu code */
+  .kicker {
+    @apply font-mono text-xs font-medium uppercase tracking-[0.2em] text-neon;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-brand-500/30 bg-brand-500/10 px-3 py-1 font-mono text-xs font-medium text-brand-300;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm font-bold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-brand-500/50;
+  }
+  .btn-primary {
+    @apply btn bg-gradient-to-r from-brand-500 to-brand-600 text-white shadow-glow hover:-translate-y-0.5 hover:shadow-neon;
+  }
+  .btn-outline {
+    @apply btn border border-brand-500/40 bg-white/5 text-brand-200 hover:border-neon hover:text-neon;
+  }
+  /* thẻ bề mặt tối */
+  .card-surface {
+    @apply rounded-xl border border-line bg-surface shadow-card;
+  }
+}
+
+/* Aurora blobs neon trên nền tối */
+.aurora {
+  position: absolute;
+  filter: blur(90px);
+  opacity: 0.35;
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+.rule {
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #3b82f6, #22d3ee, transparent);
+}
